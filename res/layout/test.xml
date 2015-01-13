@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_suckhoe"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_suckhoe"
+        android:text="Sức Khỏe" />
+
+    <Button
+        android:id="@+id/btn_naunuong"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_naunuong"
+        android:text="z" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<com.ninh.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <Button
+        android:id="@+id/btn_suckhoe"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_suckhoe"
+        android:text="Sức Khỏe" />
+    
+    <Button
+        android:id="@+id/btn_naunuong"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_naunuong"
+        android:text="Nấu Nướng" />
+    
+    <Button
+        android:id="@+id/btn_dogiadung"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_dogiadung"
+        android:text="Đồ Gia Dụng" />
+	
+    <Button
+        android:id="@+id/btn_hoaqua"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_hoaqua"
+        android:text="Hoa Quả Đồ Uống" />
+
+    <Button
+        android:id="@+id/btn_lamdep"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_lamdep"
+        android:text="Làm Đẹp" />
+
+    <Button
+        android:id="@+id/btn_vanphongpham"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_vanphong"
+        android:text="Văn Phòng Phẩm" />
+    
+    <Button
+        android:id="@+id/btn_vesinhgd"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_vsgd"
+        android:text="Vệ Sinh Gia Đình" />
+
+    <Button
+        android:id="@+id/btn_vatcanh"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_vatcanh"
+        android:text="Vật Cảnh" />
+
+    <Button
+        android:id="@+id/btn_thoitrang"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_thoitrang"
+        android:text="Thời Trang Trang Sức" />
+    
+    <Button
+        android:id="@+id/btn_dodien"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_dodien"
+        android:text="Đồ Điện" />
+
+    <Button
+        android:id="@+id/btn_thongtin"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_info"
+        android:text="Thông Tin" />
+
+</com.ninh.dashboard.DashboardLayout>

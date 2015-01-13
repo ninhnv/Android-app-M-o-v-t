@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zenapp.meovat"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.ninh.dashboard.AndroidDashboardDesignActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ninh.meovat.NauNuong_Activity"
+            android:screenOrientation="unspecified" >
+        </activity>
+        <activity
+            android:name="com.ninh.meovat.Info_Activity"
+            android:screenOrientation="unspecified" >
+        </activity>
+        <activity
+            android:name="com.ninh.meovat.DetailNauNuong"
+            android:screenOrientation="unspecified" >
+        </activity>
+        <activity android:name="com.ninh.meovat.SucKhoe_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.DoGiaDung_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.HoaQuaDoUong_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.lamdep_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.Vanphongpham_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.VeSinhGD_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.VatCanh_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.thoitrang_Activity" >
+        </activity>
+        <activity android:name="com.ninh.meovat.DoDien_Activity" >
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

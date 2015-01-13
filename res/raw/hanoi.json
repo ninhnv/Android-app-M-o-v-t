@@ -1,0 +1,30 @@
+{
+    "word": [
+        {
+                "id": "1",
+                "name": "Avalon cafe lounge",
+				"district": ""
+                "adress": "actually",  
+				"content":""
+				"thumb": ""			
+        },
+				
+		{
+				"id": "1",
+                "name": "Thực sự",
+				"district": ""
+                "adress": "actually",  
+				"content":""
+				"thumb": ""	                
+        },
+		{
+				"id": "1",
+                "name": "Thực sự",
+				"district": ""
+                "adress": "actually",  
+				"content":""
+				"thumb": ""	     
+        }
+		
+    ]
+}
